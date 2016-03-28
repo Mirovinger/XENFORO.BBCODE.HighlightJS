@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="csiXF_bbCode_FAF39740" title="(CSI/XF/BBCODE) Highlight.JS" version_string="1.0.4" version_id="5" url="http://cyberspace.industries/" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates/>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners/>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="csiXF_bbCode_FAF39740" display_order="99999999" debug_only="0"/>
+    <option option_id="csiXF_bbCode_FAF39740_style" edit_format="select" data_type="string" can_backup="1">
+      <default_value>localStyle</default_value>
+      <edit_format_params>localStyle={xen:phrase csiXF_bbCode_FAF39740_styleLocal}
+agate={xen:phrase csiXF_bbCode_FAF39740_styleAgate}
+androidstudio={xen:phrase csiXF_bbCode_FAF39740_styleAndroidstudio}
+arta={xen:phrase csiXF_bbCode_FAF39740_styleArta}
+ascetic={xen:phrase csiXF_bbCode_FAF39740_styleAscetic}
+atelier-cave-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierCaveDark}
+atelier-cave-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierCaveLight}
+atelier-dune-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierDuneDark}
+atelier-dune-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierDuneLight}
+atelier-estuary-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierEstuaryDark}
+atelier-estuary-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierEstuaryLight}
+atelier-forest-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierForestDark}
+atelier-forest-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierForestLight}
+atelier-heath-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierHeathDark}
+atelier-heath-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierHeathLight}
+atelier-lakeside-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierLakesideDark}
+atelier-lakeside-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierLakesideLight}
+atelier-plateau-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierPlateauDark}
+atelier-plateau-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierPlateauLight}
+atelier-savanna-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSavannaDark}
+atelier-savanna-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSavannaLight}
+atelier-seaside-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSeasideDark}
+atelier-seaside-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSeasideLight}
+atelier-sulphurpool-dark={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSulphurpoolDark}
+atelier-sulphurpool-light={xen:phrase csiXF_bbCode_FAF39740_styleAtelierSulphurpoolLight}
+codepen-embed={xen:phrase csiXF_bbCode_FAF39740_styleCodepenEmbed}
+color-brewer={xen:phrase csiXF_bbCode_FAF39740_styleColorBrewer}
+dark={xen:phrase csiXF_bbCode_FAF39740_styleDark}
+darkula={xen:phrase csiXF_bbCode_FAF39740_styleDarkula}
+default={xen:phrase csiXF_bbCode_FAF39740_styleDefault}
+docco={xen:phrase csiXF_bbCode_FAF39740_styleDocco}
+far={xen:phrase csiXF_bbCode_FAF39740_styleFar}
+foundation={xen:phrase csiXF_bbCode_FAF39740_styleFoundation}
+github-gist={xen:phrase csiXF_bbCode_FAF39740_styleGithubGist}
+github={xen:phrase csiXF_bbCode_FAF39740_styleGithub}
+googlecode={xen:phrase csiXF_bbCode_FAF39740_styleGooglecode}
+grayscale={xen:phrase csiXF_bbCode_FAF39740_styleGrayscale}
+hopscotch={xen:phrase csiXF_bbCode_FAF39740_styleHopscotch}
+hybrid={xen:phrase csiXF_bbCode_FAF39740_styleHybrid}
+idea={xen:phrase csiXF_bbCode_FAF39740_styleIdea}
+ir-black={xen:phrase csiXF_bbCode_FAF39740_styleIrBlack}
+kimbie.dark={xen:phrase csiXF_bbCode_FAF39740_styleKimbieDark}
+kimbie.light={xen:phrase csiXF_bbCode_FAF39740_styleKimbieLight}
+magula={xen:phrase csiXF_bbCode_FAF39740_styleMagula}
+mono-blue={xen:phrase csiXF_bbCode_FAF39740_styleMonoBlue}
+monokai-sublime={xen:phrase csiXF_bbCode_FAF39740_styleMonokaiSublime}
+monokai={xen:phrase csiXF_bbCode_FAF39740_styleMonokai}
+obsidian={xen:phrase csiXF_bbCode_FAF39740_styleObsidian}
+paraiso-dark={xen:phrase csiXF_bbCode_FAF39740_styleParaisoDark}
+paraiso-light={xen:phrase csiXF_bbCode_FAF39740_styleParaisoLight}
+railscasts={xen:phrase csiXF_bbCode_FAF39740_styleRailscasts}
+rainbow={xen:phrase csiXF_bbCode_FAF39740_styleRainbow}
+solarized-dark={xen:phrase csiXF_bbCode_FAF39740_styleSolarizedDark}
+solarized-light={xen:phrase csiXF_bbCode_FAF39740_styleSolarizedLight}
+sunburst={xen:phrase csiXF_bbCode_FAF39740_styleSunburst}
+tomorrow-night-blue={xen:phrase csiXF_bbCode_FAF39740_styleTomorrowNightBlue}
+tomorrow-night-bright={xen:phrase csiXF_bbCode_FAF39740_styleTomorrowNightBright}
+tomorrow-night-eighties={xen:phrase csiXF_bbCode_FAF39740_styleTomorrowNightEighties}
+tomorrow-night={xen:phrase csiXF_bbCode_FAF39740_styleTomorrowNight}
+tomorrow={xen:phrase csiXF_bbCode_FAF39740_styleTomorrow}
+vs={xen:phrase csiXF_bbCode_FAF39740_styleVs}
+xcode={xen:phrase csiXF_bbCode_FAF39740_styleXcode}
+zenburn={xen:phrase csiXF_bbCode_FAF39740_styleZenburn}</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="csiXF_bbCode_FAF39740" display_order="1"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="csiXF_bbCode_FAF39740_styleLocal" version_id="1" version_string="1.0.0"><![CDATA[-- по умолчанию --]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAgate" version_id="1" version_string="1.0.0"><![CDATA[Agate]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAndroidstudio" version_id="1" version_string="1.0.0"><![CDATA[Android Studio]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleArta" version_id="1" version_string="1.0.0"><![CDATA[Arta]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAscetic" version_id="1" version_string="1.0.0"><![CDATA[Ascetic]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierCaveDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Cave Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierCaveLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Cave Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierDuneDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Dune Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierDuneLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Dune Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierEstuaryDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Estuary Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierEstuaryLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Estuary Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierForestDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Forest Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierForestLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Forest Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierHeathDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Heath Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierHeathLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Heath Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierLakesideDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Lakeside Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierLakesideLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Lakeside Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierPlateauDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Plateau Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierPlateauLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Plateau Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSavannaDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Savanna Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSavannaLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Savanna Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSeasideDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Seaside Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSeasideLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Seaside Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSulphurpoolDark" version_id="1" version_string="1.0.0"><![CDATA[Atelier Sulphurpool Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleAtelierSulphurpoolLight" version_id="1" version_string="1.0.0"><![CDATA[Atelier Sulphurpool Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleCodepenEmbed" version_id="1" version_string="1.0.0"><![CDATA[Codepen Embed]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleColorBrewer" version_id="1" version_string="1.0.0"><![CDATA[Color Brewer]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleDark" version_id="1" version_string="1.0.0"><![CDATA[Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleDarkula" version_id="1" version_string="1.0.0"><![CDATA[Darkula]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleDefault" version_id="1" version_string="1.0.0"><![CDATA[Default]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleDocco" version_id="1" version_string="1.0.0"><![CDATA[Docco]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleFar" version_id="1" version_string="1.0.0"><![CDATA[Far]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleFoundation" version_id="1" version_string="1.0.0"><![CDATA[Foundation]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleGithubGist" version_id="1" version_string="1.0.0"><![CDATA[GitHub Gist]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleGithub" version_id="1" version_string="1.0.0"><![CDATA[GitHub]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleGooglecode" version_id="1" version_string="1.0.0"><![CDATA[Google Code]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleGrayscale" version_id="1" version_string="1.0.0"><![CDATA[Grayscale]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleHopscotch" version_id="1" version_string="1.0.0"><![CDATA[Hopscotch]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleHybrid" version_id="1" version_string="1.0.0"><![CDATA[Hybrid]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleIdea" version_id="1" version_string="1.0.0"><![CDATA[Idea]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleIrBlack" version_id="1" version_string="1.0.0"><![CDATA[Ir Black]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleKimbieDark" version_id="1" version_string="1.0.0"><![CDATA[Kimbie Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleKimbieLight" version_id="1" version_string="1.0.0"><![CDATA[Kimbie Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleMagula" version_id="1" version_string="1.0.0"><![CDATA[Magula]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleMonoBlue" version_id="1" version_string="1.0.0"><![CDATA[Mono Blue]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleMonokaiSublime" version_id="1" version_string="1.0.0"><![CDATA[Monokai Sublime]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleMonokai" version_id="1" version_string="1.0.0"><![CDATA[Monokai]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleObsidian" version_id="1" version_string="1.0.0"><![CDATA[Obsidian]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleParaisoDark" version_id="1" version_string="1.0.0"><![CDATA[Paraiso Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleParaisoLight" version_id="1" version_string="1.0.0"><![CDATA[Paraiso Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleRailscasts" version_id="1" version_string="1.0.0"><![CDATA[Railscasts]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleRainbow" version_id="1" version_string="1.0.0"><![CDATA[Rainbow]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleSolarizedDark" version_id="1" version_string="1.0.0"><![CDATA[Solarized Dark]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleSolarizedLight" version_id="1" version_string="1.0.0"><![CDATA[Solarized Light]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleSunburst" version_id="1" version_string="1.0.0"><![CDATA[Sunburst]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleTomorrowNightBlue" version_id="1" version_string="1.0.0"><![CDATA[Tomorrow Night Blue]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleTomorrowNightBright" version_id="1" version_string="1.0.0"><![CDATA[Tomorrow Night Bright]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleTomorrowNightEighties" version_id="1" version_string="1.0.0"><![CDATA[Tomorrow Night Eighties]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleTomorrowNight" version_id="1" version_string="1.0.0"><![CDATA[Tomorrow Night]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleTomorrow" version_id="1" version_string="1.0.0"><![CDATA[Tomorrow]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleVs" version_id="1" version_string="1.0.0"><![CDATA[Visual Studio]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleXcode" version_id="1" version_string="1.0.0"><![CDATA[XCode]]></phrase>
+    <phrase title="csiXF_bbCode_FAF39740_styleZenburn" version_id="1" version_string="1.0.0"><![CDATA[Zenburn]]></phrase>
+    <phrase title="option_csiXF_bbCode_FAF39740_style" version_id="1" version_string="1.0.0"><![CDATA[Стиль подсветки]]></phrase>
+    <phrase title="option_csiXF_bbCode_FAF39740_style_explain" version_id="1" version_string="1.0.0"><![CDATA[Выберите стиль подсветки синтаксиса. Стили можно посмотреть на <a href="https://highlightjs.org/static/demo/">этой странице</a>.]]></phrase>
+    <phrase title="option_group_csiXF_bbCode_FAF39740" version_id="1" version_string="1.0.0"><![CDATA[(CSI/XF/BBCODE) Подсветка синтаксиса (highlight.js)]]></phrase>
+    <phrase title="option_group_csiXF_bbCode_FAF39740_description" version_id="1" version_string="1.0.0"><![CDATA[Подключение библиотеки "highlight.js" для подсветки синтаксиса.
+<br/>Разработано в <a title="Создание стилей и дополнений для XenForo" class="csiXF_crGlobal csiXF_crAdmin csiXF_crOptions Tooltip" href="http://cyberspace.industries/">&quot;CYBERSPACE.Industries&quot;</a>.]]></phrase>
+    <phrase title="custom_bb_code_src_title" version_id="1" version_string="1.0.0"><![CDATA[Код: подсветка синтаксиса]]></phrase>
+    <phrase title="custom_bb_code_src_desc" version_id="1" version_string="1.0.0"><![CDATA[Подсветка синтаксиса - выделение синтаксических конструкций текста с использованием различных цветов, шрифтов и начертаний. Обычно применяется в текстовых редакторах для облегчения чтения исходного текста программ. [SRC] - автоматическая подсветка синтаксиса. [SRC="подсветка"] - с определённым языком, где подсветка это: python (Python), ruby (Ruby), perl (Perl), php (PHP), xml (XML), html (HTML), css (CSS), javascript (javascript), java (Java), cpp (C++), sql (SQL), smalltalk (Smalltalk), ini (INI file), dos (DOS Style), bash (Bash Style), diff (DIFF). В скобках указаны оригинальные названия языков.]]></phrase>
+    <phrase title="custom_bb_code_srci_title" version_id="1" version_string="1.0.0"><![CDATA[Код: подсветка синтаксиса (inline)]]></phrase>
+    <phrase title="custom_bb_code_srci_desc" version_id="1" version_string="1.0.0"><![CDATA[Подсветка синтаксиса - выделение синтаксических конструкций текста с использованием различных цветов, шрифтов и начертаний. Обычно применяется в текстовых редакторах для облегчения чтения исходного текста программ. [SRCI] - автоматическая подсветка синтаксиса. [SRCI="подсветка"] - с определённым языком, где подсветка это: python (Python), ruby (Ruby), perl (Perl), php (PHP), xml (XML), html (HTML), css (CSS), javascript (javascript), java (Java), cpp (C++), sql (SQL), smalltalk (Smalltalk), ini (INI file), dos (DOS Style), bash (Bash Style), diff (DIFF). В скобках указаны оригинальные названия языков.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="csiXF_bbCode_FAF39740_tag_src" version_id="1" version_string="1.0.0"><![CDATA[<div class="csiXF_bbCode_FAF39740 bbCodeBlock bbCodeCode bbCodeSource bbCodeSourceBlock">
+  <div class="type">{xen:phrase code}: <span class="lang">{xen:raw $lang}</span></div>
+  <pre><code class="language-{xen:raw $lang}">{xen:raw $content}</code></pre>
+</div>]]></template>
+    <template title="csiXF_bbCode_FAF39740_tag_srci" version_id="5" version_string="1.0.4"><![CDATA[<div class="csiXF_bbCode_FAF39740 bbCodeSource bbCodeSourceInline"><pre><code class="language-{xen:raw $lang}">{xen:raw $content}</code></pre></div>]]></template>
+    <template title="csiXF_bbCode_FAF39740_init" version_id="4" version_string="1.0.3"><![CDATA[<xen:require css="csiXF_bbCode_FAF39740.css" />
+<xen:require js="js/csi/bbCodeHighlightJS/highlight.pack.js" />]]></template>
+    <template title="csiXF_bbCode_FAF39740.css" version_id="1" version_string="1.0.0"><![CDATA[.bbCodeSource {}
+.bbCodeSource pre,
+.bbCodeSource code {
+  font-size: {xen:property bbCodeCode.font-size};
+  font-family: 'Monaco', 'Menlo', 'Consolas', 'DejaVu Sans Mono', 'Courier New', 'Andale Mono', monospace;
+}
+
+.bbCodeSource.bbCodeSourceBlock {
+  overflow: hidden;
+}
+
+.bbCodeSource.bbCodeSourceBlock pre {
+  min-height: 0;
+  max-height: none;
+}
+
+.bbCodeSource.bbCodeSourceBlock code {
+  display: block;
+  line-height: 1.5;
+  min-height: 0;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.bbCodeSource.bbCodeSourceInline {
+  display: inline-block;
+}
+
+.bbCodeSource.bbCodeSourceInline pre,
+.bbCodeSource.bbCodeSourceInline code {
+  font-size: {xen:property bbCodeCode.font-size};
+}
+
+.bbCodeSource.bbCodeSourceInline pre {
+  margin: 0;
+}
+
+.bbCodeSource.bbCodeSourceInline code {
+  margin: 0;
+  padding: 1px 4px 1px;
+  border-radius: 4px;
+}
+
+.bbCodeSource.bbCodeSourceInline .hljs {
+  display: inline;
+}
+
+.bbCodeSource.bbCodeSourceBlock {
+  overflow: hidden;
+}
+
+.bbCodeSource.bbCodeSourceBlock .type .lang {
+  text-transform: uppercase;
+}
+
+.bbCodeSource.bbCodeSourceBlock pre {
+  padding: 0;
+  border-radius: 0;
+}]]></template>
+    <template title="csiXF_bbCode_FAF39740_styleLocal.css" version_id="3" version_string="1.0.2"><![CDATA[.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #23241f;
+}
+
+.hljs,
+.hljs-tag,
+.hljs-subst {
+  color: #f8f8f2;
+}
+
+.hljs-strong,
+.hljs-emphasis {
+  color: #a8a8a2;
+}
+
+.hljs-bullet,
+.hljs-quote,
+.hljs-number,
+.hljs-regexp,
+.hljs-literal,
+.hljs-link {
+  color: #ae81ff;
+}
+
+.hljs-code,
+.hljs-title,
+.hljs-section,
+.hljs-selector-class {
+  color: #a6e22e;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+  color: #f92672;
+}
+
+.hljs-symbol,
+.hljs-attribute {
+  color: #66d9ef;
+}
+
+.hljs-params,
+.hljs-class .hljs-title {
+  color: #f8f8f2;
+}
+
+.hljs-string,
+.hljs-type,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-selector-id,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-addition,
+.hljs-variable,
+.hljs-template-variable {
+  color: #e6db74;
+}
+
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+  color: #75715e;
+}]]></template>
+  </templates>
+  <public_template_modifications>
+    <modification template="PAGE_CONTAINER" modification_key="csiXF_bbCode_FAF39740_style" description="Добавление стиля подсветки синтаксиса" execution_order="9" enabled="1" action="str_replace">
+      <find><![CDATA[<!--XenForo_Require:CSS-->]]></find>
+      <replace><![CDATA[$0
+<xen:if is="{$xenOptions.csiXF_bbCode_FAF39740_style} == 'localStyle'">
+  <xen:require css="csiXF_bbCode_FAF39740_styleLocal.css" />
+<xen:else />
+  <link rel="stylesheet" href="//cdn.rawgit.com/isagalaev/highlight.js/master/src/styles/{$xenOptions.csiXF_bbCode_FAF39740_style}.css" />
+</xen:if>]]></replace>
+    </modification>
+    <modification template="PAGE_CONTAINER" modification_key="csiXF_bbCode_FAF39740_init" description="Добавление шаблона &quot;csiXF_bbCode_FAF39740_init&quot; - инициализация highlight.js" execution_order="10" enabled="1" action="str_replace">
+      <find><![CDATA[</head>]]></find>
+      <replace><![CDATA[<xen:include template="csiXF_bbCode_FAF39740_init" />
+$0]]></replace>
+    </modification>
+  </public_template_modifications>
+  <bb_code_media_sites/>
+  <bb_codes>
+    <bb_code bb_code_id="src" bb_code_mode="callback" has_option="optional" callback_class="CSI\BbCodeHighlightJS\BbCode\Formatter\Base" callback_method="getBbCodeHighlightJsSrc" option_regex="" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" editor_icon_url="styles/default/xenforo/editor/icons.png" sprite_mode="1" sprite_params_x="3" sprite_params_y="-2429" active="1">
+      <replace_html><![CDATA[]]></replace_html>
+      <replace_html_email><![CDATA[]]></replace_html_email>
+      <replace_text><![CDATA[]]></replace_text>
+      <example><![CDATA[[SRC]<html>
+  <head>
+    <title>Hello World</title>
+  </head>
+  <body>
+    <?php echo '<p>Hello World</p>'; ?>
+  </body>
+</html>[/SRC]
+
+[SRC="html"]<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Подсветка синтаксиса HTML</title>
+  </head>
+  <body>
+    <h1>Заголовок страницы</h1>
+    <p>Основной текст.</p>
+  </body>
+</html>[/SRC]
+
+[SRC="php"]<?php
+$ch = curl_init("http://www.example.com/");
+$fp = fopen("example_homepage.txt", "w");
+
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_HEADER, 0);
+
+curl_exec($ch);
+curl_close($ch);
+fclose($fp);
+?>[/SRC]]]></example>
+    </bb_code>
+    <bb_code bb_code_id="srci" bb_code_mode="callback" has_option="optional" callback_class="CSI\BbCodeHighlightJS\BbCode\Formatter\Base" callback_method="getBbCodeHighlightJsSrci" option_regex="" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" editor_icon_url="" sprite_mode="0" sprite_params_x="" sprite_params_y="" active="1">
+      <replace_html><![CDATA[]]></replace_html>
+      <replace_html_email><![CDATA[]]></replace_html_email>
+      <replace_text><![CDATA[]]></replace_text>
+      <example><![CDATA[]]></example>
+    </bb_code>
+  </bb_codes>
+</addon>
